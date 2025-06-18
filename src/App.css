@@ -175,6 +175,20 @@ li {
   }
 }
 
+@media (max-width: 700px) {
+  #mainContainer {
+    padding-bottom: 90px; /* Ajusta según la altura real del MiniPlayer */
+  }
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr); /* o 3, según prefieras */
+    gap: 10px;
+  }
+  .category-card {
+    padding: 14px 0;
+    font-size: 1rem;
+  }
+}
+
 .back-btn {
   background: none;
   color: #1976d2;
@@ -250,7 +264,7 @@ li {
 }
 
 .song-row:hover {
-  background: #bcbdbd !important; /* Gris clarito */
+  background: #f5faff ; /* Gris clarito */
 }
 
 .song-title {
