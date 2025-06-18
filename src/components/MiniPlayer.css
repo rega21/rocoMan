@@ -1,0 +1,82 @@
+.mini-player {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1976d2;
+  color: #fff;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.12);
+  font-size: 1.1rem;
+  z-index: 1001;
+  padding: 10px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mini-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+.mini-info {
+  width: 100%;
+  margin-bottom: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.mini-title {
+  font-weight: bold;
+}
+
+.mini-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.mini-btn:hover {
+  color: #fbc02d;
+}
+
+.mini-player.expanded {
+  background: #1565c0;
+  box-shadow: 0 -4px 24px rgba(0,0,0,0.18);
+}
+
+.mini-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 16px 16px 16px;
+  border-top: 1px solid #145ea8;
+}
+
+.mini-progress {
+  width: 120px;
+}
+
+.mini-volume {
+  width: 70px;
+}
+
+.mini-extra {
+  font-size: 0.95rem;
+  color: #ffe082;
+}
+
+.mini-time {
+  font-size: 0.98rem;
+  min-width: 40px;
+  text-align: center;
+  color: #ffe082;
+}
